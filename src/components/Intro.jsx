@@ -40,7 +40,7 @@ const Button = styled.button`
   padding: 15px;
   background-color: darkblue;
   color: white;
-  border-radius: 10px;
+  border-radius: 20px;
   font-weight: bold;
   border: none;
   letter-spacing: 2px;
