@@ -88,9 +88,7 @@ const Intro = () => {
         </Info>
       </Left>
       <Right>
-        <Right>
-          <Image src={Woman} />
-        </Right>
+        <Image src={Woman} />
       </Right>
     </Container>
   );
