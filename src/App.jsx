@@ -4,6 +4,8 @@ import Intro from "./components/Intro";
 import Navbar from "./components/Navbar";
 import Services from "./components/Services";
 import Pricing from "./components/Pricing";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 const Container = styled.div`
   height: 100vh;
@@ -69,6 +71,10 @@ const App = () => {
       <Container>
         <Pricing />
         <PriceShape />
+      </Container>
+      <Container>
+        <Contact />
+        <Footer />
       </Container>
     </>
   );
