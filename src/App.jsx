@@ -53,6 +53,7 @@ const PriceShape = styled.div`
 `;
 
 const App = () => {
+  const viewportMini = window.screen.width <= 480 ? true : false;
   return (
     <>
       <Container>
@@ -66,7 +67,7 @@ const App = () => {
       </Container>
       <Container>
         <Services />
-        <ServiceShape />
+        {!viewportMini && <ServiceShape />}
       </Container>
       <Container>
         <Pricing />

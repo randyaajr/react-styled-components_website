@@ -5,10 +5,17 @@ import ShapesAnimated from "./ShapesAnimated";
 
 const Container = styled.div`
   display: flex;
+  @media only screen and (max-width: 480px) {
+    flex-direction: column;
+    padding: 30px 20px;
+  }
 `;
 
 const Left = styled.div`
   width: 50%;
+  @media only screen and (max-width: 480px) {
+    display: none;
+  }
 `;
 
 const Image = styled.img`

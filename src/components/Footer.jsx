@@ -12,7 +12,7 @@ const Wrapper = styled.div`
   display: flex;
   justify-content: space-between;
   @media only screen and (max-width: 480px) {
-    padding: 10px;
+    padding: 20px;
   }
 `;
 
@@ -27,12 +27,12 @@ const ListItem = styled.li`
   margin-right: 20px;
   @media only screen and (max-width: 480px) {
     margin-right: 10px;
-    font-size: 14px;
+    font-size: 12px;
   }
 `;
 const Copyright = styled.span`
   @media only screen and (max-width: 480px) {
-    font-size: 14px;
+    font-size: 12px;
   }
 `;
 
