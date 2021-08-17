@@ -11,6 +11,12 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  &:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-out;
+  }
+
   @media only screen and (max-width: 480px) {
     margin-right: 0;
     margin-bottom: 10px;
@@ -64,6 +70,12 @@ const Button = styled.button`
   padding: 15px;
   border-radius: 10px;
   cursor: pointer;
+
+  &:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-out;
+  }
+
   @media only screen and (max-width: 480px) {
     font-size: 12px;
     padding: 5px;
