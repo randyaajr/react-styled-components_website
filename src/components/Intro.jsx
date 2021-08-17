@@ -58,7 +58,7 @@ const Button = styled.button`
   padding: 15px;
   background-color: darkblue;
   color: white;
-  border-radius: 20px;
+  border-radius: 10px;
   font-weight: bold;
   border: none;
   letter-spacing: 2px;

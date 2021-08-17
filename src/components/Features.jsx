@@ -19,7 +19,7 @@ const Left = styled.div`
 `;
 
 const Image = styled.img`
-  width: 80%;
+  width: 70%;
 `;
 
 const Right = styled.div`
@@ -55,11 +55,11 @@ const Desc = styled.p`
 const Button = styled.button`
   width: 150px;
   border: none;
-  padding: 15px;
+  padding: 15px 20px;
   background-color: darkblue;
   color: white;
   font-size: 20px;
-  border-radius: 20px;
+  border-radius: 10px;
   margin-top: 20px;
   cursor: pointer;
 `;
