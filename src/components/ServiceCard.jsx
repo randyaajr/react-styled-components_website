@@ -10,6 +10,12 @@ const Container = styled.div`
   align-items: center;
   -webkit-box-shadow: 0px 0px 17px -11px rgba(0, 0, 0, 0.58);
   box-shadow: 0px 0px 17px -11px rgba(0, 0, 0, 0.58);
+
+  &:hover {
+    transform: translate(0%, -30%);
+    transition: 0.3s ease-out;
+  }
+
   @media only screen and (max-width: 480px) {
     width: 50px;
   }
