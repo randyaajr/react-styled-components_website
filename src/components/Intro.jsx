@@ -55,14 +55,21 @@ const Info = styled.div`
 `;
 
 const Button = styled.button`
-  padding: 15px;
+  padding: 15px 20px;
   background-color: darkblue;
   color: white;
   border-radius: 10px;
   font-weight: bold;
   border: none;
-  letter-spacing: 2px;
+  font-size: 20px;
   cursor: pointer;
+
+  &:hover {
+    background-color: #00008bce;
+    transform: scale(1.1);
+    transition: 0.3s ease-out;
+  }
+
   @media only screen and (max-width: 480px) {
     margin-bottom: 20px;
   }

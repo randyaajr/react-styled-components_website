@@ -87,13 +87,20 @@ const TextArea = styled.textarea`
 
 const Button = styled.button`
   border: none;
-  padding: 15px;
+  padding: 15px 20px;
   background-color: darkblue;
   color: white;
   font-size: 20px;
   border-radius: 10px;
   margin-top: 20px;
   cursor: pointer;
+
+  &:hover {
+    background-color: #00008bce;
+    transform: scale(1.1);
+    transition: 0.3s ease-out;
+  }
+
   @media only screen and (max-width: 480px) {
     padding: 5px;
     font-size: 14px;

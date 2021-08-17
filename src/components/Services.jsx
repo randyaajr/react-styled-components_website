@@ -75,11 +75,17 @@ const Button = styled.button`
   background-color: darkblue;
   color: white;
   font-size: 20px;
-  padding: 15px;
+  padding: 15px 20px;
   margin-top: 50px;
   cursor: pointer;
   display: flex;
   align-items: center;
+
+  &:hover {
+    background-color: #00008bce;
+    transform: scale(1.1);
+    transition: 0.3s ease-out;
+  }
 `;
 
 const Icon = styled.img`

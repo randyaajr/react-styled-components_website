@@ -62,6 +62,12 @@ const Button = styled.button`
   border-radius: 10px;
   margin-top: 20px;
   cursor: pointer;
+
+  &:hover {
+    background-color: #00008bce;
+    transform: scale(1.1);
+    transition: 0.3s ease-out;
+  }
 `;
 
 const Features = () => {
